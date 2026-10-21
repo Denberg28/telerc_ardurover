@@ -1,0 +1,330 @@
+{
+  "transferred": "2026-10-21",
+  "unchanged_sketch_sources": true,
+  "files": [
+    {
+      "path": "TeleRC_4x_BTS7960_PWM_GlitchFilter/TeleRC_4x_BTS7960_PWM_GlitchFilter.ino",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRC_4x_BTS7960_PWM_GlitchFilter/TeleRC_4x_BTS7960_PWM_GlitchFilter.ino",
+      "sha256": "65cd0d642cd0e749470404774b466abc9632c0f5a0bd083981875f0e1fa989a2"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/SketchSettings.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/SketchSettings.h",
+      "sha256": "f429df77fb9135faf39978e12e5f758fa17df1084fbc3fd79be339bd3d51cd6a"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/MeshCore.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/MeshCore.h",
+      "sha256": "5e7acdbf2cac477d0b18c72bf1e361617c5d53d34294b4b2bcd2c8cd0a3c01cf"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/TinyOled.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/TeleRCLoRa_BASE.ino",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/TeleRCLoRa_BASE.ino",
+      "sha256": "706bdb4a81a9c82551da41fac3f1f48ac596b4d7aef30bce5991bb9ab091bad5"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/WiFiLink.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/WiFiLink.h",
+      "sha256": "69cc4b484786f1779ea96246a3c260bcedaebf2fb02b5cb763e5f2ec52f364d6"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/Runtime.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/Runtime.h",
+      "sha256": "e4d0c9273c196b876c781199560a88e3002653d3e959bb429ad43a23b1039482"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/Link.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/Link.h",
+      "sha256": "57d20e2d1531a950c8ae0fd0e8f67c700c12ded8a21e8d1a66271cfc049f89f4"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/LinkMode.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/LinkMode.h",
+      "sha256": "403513c11ee0fedd4163b4365ac901114cb48f10a925b57fc74a1254367e0095"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/RelayRoute.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/RelayRoute.h",
+      "sha256": "f59b1c6ca90c3d33c95fe953ea5c263f4cbbf0a1d172846067af5b5edbe626bf"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/TeleRCWire.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/TeleRCWire.h",
+      "sha256": "6139398971250b85f51a5cef3f5240ae1553e8a927823c7e55d820f0eddd3f54"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/LinkLed.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/LinkLed.h",
+      "sha256": "0a1d1ce75cf8d5d05b80a83522ad4d58b86cb63d5f78bc4f3e40be9863e1cc9c"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/Pairing.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/Pairing.h",
+      "sha256": "62a77609a7a297d8c35d1cba8c66926fb453c94a494807c76d8ea4e40c58f7c2"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_BASE/BootMenu.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_BASE/BootMenu.h",
+      "sha256": "7e5f0f7dd9404c142668a475f035f7393c0fed6187d297a2072d78c2febe8b49"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/SketchSettings.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/SketchSettings.h",
+      "sha256": "f429df77fb9135faf39978e12e5f758fa17df1084fbc3fd79be339bd3d51cd6a"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/MeshCore.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/MeshCore.h",
+      "sha256": "5e7acdbf2cac477d0b18c72bf1e361617c5d53d34294b4b2bcd2c8cd0a3c01cf"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/TinyOled.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/WiFiLink.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/WiFiLink.h",
+      "sha256": "69cc4b484786f1779ea96246a3c260bcedaebf2fb02b5cb763e5f2ec52f364d6"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/Runtime.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/Runtime.h",
+      "sha256": "e4d0c9273c196b876c781199560a88e3002653d3e959bb429ad43a23b1039482"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/Link.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/Link.h",
+      "sha256": "57d20e2d1531a950c8ae0fd0e8f67c700c12ded8a21e8d1a66271cfc049f89f4"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/LinkMode.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/LinkMode.h",
+      "sha256": "403513c11ee0fedd4163b4365ac901114cb48f10a925b57fc74a1254367e0095"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/RelayRoute.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/RelayRoute.h",
+      "sha256": "f59b1c6ca90c3d33c95fe953ea5c263f4cbbf0a1d172846067af5b5edbe626bf"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/TeleRCWire.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/TeleRCWire.h",
+      "sha256": "6139398971250b85f51a5cef3f5240ae1553e8a927823c7e55d820f0eddd3f54"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/LinkLed.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/LinkLed.h",
+      "sha256": "0a1d1ce75cf8d5d05b80a83522ad4d58b86cb63d5f78bc4f3e40be9863e1cc9c"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/Pairing.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/Pairing.h",
+      "sha256": "62a77609a7a297d8c35d1cba8c66926fb453c94a494807c76d8ea4e40c58f7c2"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/TeleRCLoRa_ROVER.ino",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/TeleRCLoRa_ROVER.ino",
+      "sha256": "bb7d77ba7f0002342ea031da51e78c41f5fec6a5171bebc73efeeb4ce9a61488"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_ROVER/BootMenu.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_ROVER/BootMenu.h",
+      "sha256": "7e5f0f7dd9404c142668a475f035f7393c0fed6187d297a2072d78c2febe8b49"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/SketchSettings.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/SketchSettings.h",
+      "sha256": "f429df77fb9135faf39978e12e5f758fa17df1084fbc3fd79be339bd3d51cd6a"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/MeshCore.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/MeshCore.h",
+      "sha256": "5e7acdbf2cac477d0b18c72bf1e361617c5d53d34294b4b2bcd2c8cd0a3c01cf"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/TinyOled.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/WiFiLink.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/WiFiLink.h",
+      "sha256": "69cc4b484786f1779ea96246a3c260bcedaebf2fb02b5cb763e5f2ec52f364d6"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/Runtime.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/Runtime.h",
+      "sha256": "e4d0c9273c196b876c781199560a88e3002653d3e959bb429ad43a23b1039482"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/Link.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/Link.h",
+      "sha256": "57d20e2d1531a950c8ae0fd0e8f67c700c12ded8a21e8d1a66271cfc049f89f4"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/LinkMode.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/LinkMode.h",
+      "sha256": "403513c11ee0fedd4163b4365ac901114cb48f10a925b57fc74a1254367e0095"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/RelayRoute.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/RelayRoute.h",
+      "sha256": "f59b1c6ca90c3d33c95fe953ea5c263f4cbbf0a1d172846067af5b5edbe626bf"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/TeleRCWire.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/TeleRCWire.h",
+      "sha256": "6139398971250b85f51a5cef3f5240ae1553e8a927823c7e55d820f0eddd3f54"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/LinkLed.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/LinkLed.h",
+      "sha256": "0a1d1ce75cf8d5d05b80a83522ad4d58b86cb63d5f78bc4f3e40be9863e1cc9c"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/Pairing.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/Pairing.h",
+      "sha256": "62a77609a7a297d8c35d1cba8c66926fb453c94a494807c76d8ea4e40c58f7c2"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/BootMenu.h",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/BootMenu.h",
+      "sha256": "7e5f0f7dd9404c142668a475f035f7393c0fed6187d297a2072d78c2febe8b49"
+    },
+    {
+      "path": "lora/manual/TeleRCLoRa_NODE/TeleRCLoRa_NODE.ino",
+      "source": "extract/pcsource/PC-TeleRC-v0.1.5rc3/firmware/TeleRCLoRa_NODE/TeleRCLoRa_NODE.ino",
+      "sha256": "1e9e158fa95b8809c16f53122cd65a6206f1c9859283e48ad0e4b6e211314e5f"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_1/Config.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_1/Config.h",
+      "sha256": "b09da80154a1e1599dea0a5da05cacc6ca9f1450bfc0cb365a2782efb69e5cb1"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_1/Protocol.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_1/Protocol.h",
+      "sha256": "2ffe9c5a79fbb57d72e67897e370b17e93da8e35dbef8a730eaf96afdd4f17d9"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_1/TinyOled.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_1/TinyOled.h",
+      "sha256": "66e4c89dcc2380cd04cfb2ec8c201298a5652485061f6b0ab05f3033d7a7e9eb"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_1/Runtime.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_1/Runtime.h",
+      "sha256": "4cff2ef69faad6e6097fd3112636f6c0be7e0139f3618169017a783bf46814ff"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_1/TeleRCMission_NODE_1.ino",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_1/TeleRCMission_NODE_1.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_1/Crypto.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_1/Crypto.h",
+      "sha256": "d5f17e604a11751c9c64e3ad391778152407a6bc167f3c97f305e01888b3a489"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_2/Config.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_2/Config.h",
+      "sha256": "f78493aea267e2f94cfaa7c813b5815dfaad511d818632fde888e9e3e05864e1"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_2/TeleRCMission_NODE_2.ino",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_2/TeleRCMission_NODE_2.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_2/Protocol.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_2/Protocol.h",
+      "sha256": "2ffe9c5a79fbb57d72e67897e370b17e93da8e35dbef8a730eaf96afdd4f17d9"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_2/TinyOled.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_2/TinyOled.h",
+      "sha256": "66e4c89dcc2380cd04cfb2ec8c201298a5652485061f6b0ab05f3033d7a7e9eb"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_2/Runtime.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_2/Runtime.h",
+      "sha256": "4cff2ef69faad6e6097fd3112636f6c0be7e0139f3618169017a783bf46814ff"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_NODE_2/Crypto.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_NODE_2/Crypto.h",
+      "sha256": "d5f17e604a11751c9c64e3ad391778152407a6bc167f3c97f305e01888b3a489"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_ROVER_001/Config.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_ROVER_001/Config.h",
+      "sha256": "2dddcca28934a3de53c926ecf7567655779965f090a92fdd16c939e035fce314"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_ROVER_001/Protocol.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_ROVER_001/Protocol.h",
+      "sha256": "2ffe9c5a79fbb57d72e67897e370b17e93da8e35dbef8a730eaf96afdd4f17d9"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_ROVER_001/TinyOled.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_ROVER_001/TinyOled.h",
+      "sha256": "66e4c89dcc2380cd04cfb2ec8c201298a5652485061f6b0ab05f3033d7a7e9eb"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_ROVER_001/TeleRCMission_ROVER_001.ino",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_ROVER_001/TeleRCMission_ROVER_001.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_ROVER_001/Runtime.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_ROVER_001/Runtime.h",
+      "sha256": "4cff2ef69faad6e6097fd3112636f6c0be7e0139f3618169017a783bf46814ff"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_ROVER_001/Crypto.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_ROVER_001/Crypto.h",
+      "sha256": "d5f17e604a11751c9c64e3ad391778152407a6bc167f3c97f305e01888b3a489"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_BASE/Config.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_BASE/Config.h",
+      "sha256": "48a365a9e8f10f7286536f10a23541309f3a8e0f265f17fca44a7e7b52c290f9"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_BASE/Protocol.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_BASE/Protocol.h",
+      "sha256": "2ffe9c5a79fbb57d72e67897e370b17e93da8e35dbef8a730eaf96afdd4f17d9"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_BASE/TinyOled.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_BASE/TinyOled.h",
+      "sha256": "66e4c89dcc2380cd04cfb2ec8c201298a5652485061f6b0ab05f3033d7a7e9eb"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_BASE/TeleRCMission_BASE.ino",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_BASE/TeleRCMission_BASE.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_BASE/Runtime.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_BASE/Runtime.h",
+      "sha256": "4cff2ef69faad6e6097fd3112636f6c0be7e0139f3618169017a783bf46814ff"
+    },
+    {
+      "path": "lora/mission/sketches/TeleRCMission_BASE/Crypto.h",
+      "source": "extract/mission/TeleRC-LoRa-Mission-v0.2.0rc1/sketches/TeleRCMission_BASE/Crypto.h",
+      "sha256": "d5f17e604a11751c9c64e3ad391778152407a6bc167f3c97f305e01888b3a489"
+    }
+  ],
+  "source_packages": [
+    "PC-TeleRC-Mission-Release-v0.1.5rc3.zip",
+    "TeleRC-Current-Firmware-2026-10-21.zip"
+  ]
+}

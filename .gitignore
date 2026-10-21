@@ -1,0 +1,5 @@
+# Generated provisioned sketches and secrets must remain private.
+TeleRC-private/
+*private*/
+__pycache__/
+*.pyc
