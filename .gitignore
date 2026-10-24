@@ -3,3 +3,8 @@ TeleRC-private/
 *private*/
 __pycache__/
 *.pyc
+
+.compat-pc/
+baseline-dist/
+scalable-dist/
+.pytest_cache/

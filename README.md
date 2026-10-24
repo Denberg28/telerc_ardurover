@@ -1,5 +1,17 @@
 # TeleRC ArduRover firmware
 
+Current development baseline: **1.1.0rc1**, combining scalable LoRa **0.4.0rc1**
+and ESP32-S3 four-BTS7960 PWM converter **1.0.5**. See [baseline setup and limits](docs/BASELINE.md).
+The same LoRa sketch set supports manual and PC MAVLink mission sessions.
+Public LoRa examples are RF-OFF; generate a matching private network before use.
+The private 20-rover bundle remains separate and must never be committed here.
+
+This is a candidate baseline; physical combined-system qualification is pending.
+[Download the combined baseline](https://github.com/Denberg28/telerc_ardurover/releases/tag/firmware-baseline-v1.1.0rc1).
+
+## Historical source sets
+
+
 Latest sketch sources transferred on 21 October 2026. Required headers are included. No historical releases or compiled binaries are included.
 
 | Folder | Firmware | Source |

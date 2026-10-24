@@ -1,0 +1,497 @@
+{
+  "baseline_version": "1.1.0rc1",
+  "status": "RELEASE CANDIDATE",
+  "lora_version": "0.4.0rc1",
+  "converter_version": "1.0.5",
+  "component_source_bytes_unchanged": true,
+  "private_keys_included": false,
+  "hardware_validation": "NOT TESTED",
+  "files": [
+    {
+      "path": "lora/scalable/EVOLUTION.md",
+      "sha256": "d991a0d8bc090f969b575bfd96e0a5256011e47e9c6d317bb02d6bad38c6e5f9",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/EVOLUTION.md"
+    },
+    {
+      "path": "lora/scalable/HARDWARE_TEST.md",
+      "sha256": "57a0ac33b63cce28c7b4c302ac59769253f93d06690050f352a01ea812e31631",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/HARDWARE_TEST.md"
+    },
+    {
+      "path": "lora/scalable/MAKE-MATCHING-SKETCHES.cmd",
+      "sha256": "712821ec65482a11c7fc906012299216110702b30c33055d833d0051b7cd135d",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/MAKE-MATCHING-SKETCHES.cmd"
+    },
+    {
+      "path": "lora/scalable/README.md",
+      "sha256": "0d73d711bde7de3383df0dd5f483afb969f4abf2b24dda922eaf0d300538ab53",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/README.md"
+    },
+    {
+      "path": "lora/scalable/firmware/Config.example.h",
+      "sha256": "9e40658aab41347ef1d379484bcb7dad8ec0fde750b4c1c5c3f99086d709d78f",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/firmware/Config.example.h"
+    },
+    {
+      "path": "lora/scalable/firmware/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/firmware/Crypto.h"
+    },
+    {
+      "path": "lora/scalable/firmware/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/firmware/Manual.h"
+    },
+    {
+      "path": "lora/scalable/firmware/Protocol.h",
+      "sha256": "3fec8cb5a9a3a3a2b1e1d4f342bdc92a0cd9cfa3eeccf97caf86a66be570ecda",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/firmware/Protocol.h"
+    },
+    {
+      "path": "lora/scalable/firmware/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/firmware/Routing.h"
+    },
+    {
+      "path": "lora/scalable/firmware/Runtime.h",
+      "sha256": "b630f0ada8738212824878b283a39696e529001a3b31591a9908ab981afb7133",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/firmware/Runtime.h"
+    },
+    {
+      "path": "lora/scalable/firmware/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/firmware/TeleRCWire.h"
+    },
+    {
+      "path": "lora/scalable/firmware/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/firmware/TinyOled.h"
+    },
+    {
+      "path": "lora/scalable/requirements.txt",
+      "sha256": "53888723a4552fbefc13f6159015f97149e0a96ac2ffc1dd1ea8aa25b341c8a1",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/requirements.txt"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_BASE/Config.h",
+      "sha256": "9e40658aab41347ef1d379484bcb7dad8ec0fde750b4c1c5c3f99086d709d78f",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_BASE/Config.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_BASE/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_BASE/Crypto.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_BASE/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_BASE/Manual.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_BASE/Protocol.h",
+      "sha256": "3fec8cb5a9a3a3a2b1e1d4f342bdc92a0cd9cfa3eeccf97caf86a66be570ecda",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_BASE/Protocol.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_BASE/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_BASE/Routing.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_BASE/Runtime.h",
+      "sha256": "b630f0ada8738212824878b283a39696e529001a3b31591a9908ab981afb7133",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_BASE/Runtime.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_BASE/TeleRCScale_BASE.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_BASE/TeleRCScale_BASE.ino"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_BASE/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_BASE/TeleRCWire.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_BASE/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_BASE/TinyOled.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_1/Config.h",
+      "sha256": "8f1fc3661a5514c9414906417a3028b27bc156c86493893caa98e8a830246c25",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_1/Config.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_1/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_1/Crypto.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_1/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_1/Manual.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_1/Protocol.h",
+      "sha256": "3fec8cb5a9a3a3a2b1e1d4f342bdc92a0cd9cfa3eeccf97caf86a66be570ecda",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_1/Protocol.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_1/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_1/Routing.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_1/Runtime.h",
+      "sha256": "b630f0ada8738212824878b283a39696e529001a3b31591a9908ab981afb7133",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_1/Runtime.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_1/TeleRCScale_NODE_1.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_1/TeleRCScale_NODE_1.ino"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_1/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_1/TeleRCWire.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_1/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_1/TinyOled.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_200/Config.h",
+      "sha256": "00b0a8977b17cfe40e6a6e213d38b27428bce45bb7b258e1e7654b935b74dcef",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_200/Config.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_200/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_200/Crypto.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_200/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_200/Manual.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_200/Protocol.h",
+      "sha256": "3fec8cb5a9a3a3a2b1e1d4f342bdc92a0cd9cfa3eeccf97caf86a66be570ecda",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_200/Protocol.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_200/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_200/Routing.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_200/Runtime.h",
+      "sha256": "b630f0ada8738212824878b283a39696e529001a3b31591a9908ab981afb7133",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_200/Runtime.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_200/TeleRCScale_NODE_200.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_200/TeleRCScale_NODE_200.ino"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_200/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_200/TeleRCWire.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_200/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_200/TinyOled.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_3/Config.h",
+      "sha256": "87667306779f75826b5083de68f6801cacc2b04c993de34fbb9d0b928f12506b",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_3/Config.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_3/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_3/Crypto.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_3/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_3/Manual.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_3/Protocol.h",
+      "sha256": "3fec8cb5a9a3a3a2b1e1d4f342bdc92a0cd9cfa3eeccf97caf86a66be570ecda",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_3/Protocol.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_3/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_3/Routing.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_3/Runtime.h",
+      "sha256": "b630f0ada8738212824878b283a39696e529001a3b31591a9908ab981afb7133",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_3/Runtime.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_3/TeleRCScale_NODE_3.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_3/TeleRCScale_NODE_3.ino"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_3/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_3/TeleRCWire.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_NODE_3/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_NODE_3/TinyOled.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_ROVER_001/Config.h",
+      "sha256": "358215af18349a5d9bd58a829733c86e11dfde57c91f76d413b026ae10f01fd5",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_ROVER_001/Config.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_ROVER_001/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_ROVER_001/Crypto.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_ROVER_001/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_ROVER_001/Manual.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_ROVER_001/Protocol.h",
+      "sha256": "3fec8cb5a9a3a3a2b1e1d4f342bdc92a0cd9cfa3eeccf97caf86a66be570ecda",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_ROVER_001/Protocol.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_ROVER_001/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_ROVER_001/Routing.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_ROVER_001/Runtime.h",
+      "sha256": "b630f0ada8738212824878b283a39696e529001a3b31591a9908ab981afb7133",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_ROVER_001/Runtime.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_ROVER_001/TeleRCScale_ROVER_001.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_ROVER_001/TeleRCScale_ROVER_001.ino"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_ROVER_001/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_ROVER_001/TeleRCWire.h"
+    },
+    {
+      "path": "lora/scalable/sketches/TeleRCScale_ROVER_001/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/sketches/TeleRCScale_ROVER_001/TinyOled.h"
+    },
+    {
+      "path": "lora/scalable/tests/make_fixtures.py",
+      "sha256": "3950171af727ae83f99ec410e31ff499a2d26b11bfee55a4d485829f9eb5ed44",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/make_fixtures.py"
+    },
+    {
+      "path": "lora/scalable/tests/radio_bridge.cpp",
+      "sha256": "2c28badd65096f6e53ce39c8c4fb033e7b5c3450c35de7264f9955396f82b9d3",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/radio_bridge.cpp"
+    },
+    {
+      "path": "lora/scalable/tests/run_native.py",
+      "sha256": "3c68d7d637f901b55108c5091872edf719b2cd457b6b704728f0bda4faf6c6fb",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/run_native.py"
+    },
+    {
+      "path": "lora/scalable/tests/stubs/Arduino.h",
+      "sha256": "f55ee48dd16a72ee81127aabcb749e9a184fb4ae0e349dc416c2aa171e7a4453",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/stubs/Arduino.h"
+    },
+    {
+      "path": "lora/scalable/tests/stubs/RadioLib.h",
+      "sha256": "bc06e8c265102a707c0d8a359ea8c57e62c74cd328fdfc451d9b331e588d33b7",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/stubs/RadioLib.h"
+    },
+    {
+      "path": "lora/scalable/tests/stubs/SPI.h",
+      "sha256": "62d1e63727f12c3844d7dc964bbddfaf16a3f48b01121f5f5041918deffdf130",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/stubs/SPI.h"
+    },
+    {
+      "path": "lora/scalable/tests/stubs/Wire.h",
+      "sha256": "76646eeb61784c751bcc5be757c689037b8a813b96a05fd4b799bb68bc6e18bd",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/stubs/Wire.h"
+    },
+    {
+      "path": "lora/scalable/tests/stubs/bootloader_random.h",
+      "sha256": "2141523b81ce7e69574d91118c26c6559abdfe72165489383640039ec9c5d85d",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/stubs/bootloader_random.h"
+    },
+    {
+      "path": "lora/scalable/tests/stubs/esp_random.h",
+      "sha256": "8ddb552a0e01fc2ecbda4b6ab6d0c787a58bd7da7cab4ca611d15060d965c5fe",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/stubs/esp_random.h"
+    },
+    {
+      "path": "lora/scalable/tests/stubs/mbedtls/gcm.h",
+      "sha256": "1c967b846fee239567a472ec771794834a7b7a26d541e0eeeeb8dbf9e73c9553",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/stubs/mbedtls/gcm.h"
+    },
+    {
+      "path": "lora/scalable/tests/stubs/mbedtls/md.h",
+      "sha256": "6250312e14309fa7c348ed42b1f6e39faf24aed7079ff716b55faddc06fd8162",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/stubs/mbedtls/md.h"
+    },
+    {
+      "path": "lora/scalable/tests/test_native.cpp",
+      "sha256": "24a9f40e5cb5a1055fcac82fc554c8300adc968d74fd8566e8c0a8e5f8b8ba89",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/test_native.cpp"
+    },
+    {
+      "path": "lora/scalable/tests/test_network.py",
+      "sha256": "741b189cd739bd3e1202c681b675a5937ea113223552b3df41d935aff92da5cf",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/test_network.py"
+    },
+    {
+      "path": "lora/scalable/tests/test_pc_compatibility.py",
+      "sha256": "166d71b096c97dc751d48dbffdcdfa110a3ec0265f2a7811e7b606b341d084b4",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/test_pc_compatibility.py"
+    },
+    {
+      "path": "lora/scalable/tests/test_provision.py",
+      "sha256": "c263aa1dbd06a971eddc9787ee50bb83a49783c20675fc8c2684f5d261fe1401",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/test_provision.py"
+    },
+    {
+      "path": "lora/scalable/tests/usb_bridge.cpp",
+      "sha256": "5138defa1af785c94237eb144dda6da317d75fa5193938560a098ddf2bb61232",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tests/usb_bridge.cpp"
+    },
+    {
+      "path": "lora/scalable/tools/assemble_examples.py",
+      "sha256": "341e564467cde8e8105680cf0d5b4f32e5b9ec2f5867fbb50c201f7588877aea",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tools/assemble_examples.py"
+    },
+    {
+      "path": "lora/scalable/tools/build_candidate.py",
+      "sha256": "999e76294821d79e5bbec906571bf4eaf4f965f16ba76a97231e6af0ee399efa",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tools/build_candidate.py"
+    },
+    {
+      "path": "lora/scalable/tools/compile_profiles.py",
+      "sha256": "5ce12725f7526b38a856a373d8870be4a268837f2cf06a68041abcfe8c6ad10b",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tools/compile_profiles.py"
+    },
+    {
+      "path": "lora/scalable/tools/provision.py",
+      "sha256": "5facb5206fec3a6c0c05da8399f12251117d3c1c30bb8eac393cde35eacf1490",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tools/provision.py"
+    },
+    {
+      "path": "lora/scalable/tools/publish.py",
+      "sha256": "c051b84330dc0dc7920ad6806b63babb938019725e78d7cc1945a395aa210abe",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tools/publish.py"
+    },
+    {
+      "path": "lora/scalable/tools/setup_profiles.py",
+      "sha256": "43feda4f3c297dcb1cb2be089b44549e431736df4b96a506e1c9d8ac5f8e7d16",
+      "source_commit": "07ddf07b5d465619123e69977d737b6420f56801",
+      "source_path": "firmware/scalable/tools/setup_profiles.py"
+    },
+    {
+      "path": "TeleRC_4x_BTS7960_PWM_GlitchFilter/TeleRC_4x_BTS7960_PWM_GlitchFilter.ino",
+      "sha256": "65cd0d642cd0e749470404774b466abc9632c0f5a0bd083981875f0e1fa989a2",
+      "source_commit": "2c84c68c3dd6527b340944202ca93e57457334b5",
+      "source_repository": "Denberg28/telerc_ardurover"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+name: Combined firmware baseline candidate
+on:
+  push:
+    branches: [dev/firmware-baseline-v1.1.0rc1]
+permissions:
+  contents: read
+concurrency:
+  group: firmware-baseline-v1.1.0rc1
+  cancel-in-progress: true
+jobs:
+  qualify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: Denberg28/PC-TeleRC
+          ref: 07ddf07b5d465619123e69977d737b6420f56801
+          path: .compat-pc
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: arduino/setup-arduino-cli@v2
+        with: {version: '1.3.1'}
+      - name: Focused firmware and release boundary checks
+        run: |
+          python -m pip install -r lora/scalable/requirements.txt pytest==9.1.1
+          python -m compileall -q scripts lora/scalable/tools
+          python lora/scalable/tools/assemble_examples.py
+          git diff --exit-code -- lora/scalable/sketches
+          python scripts/test_pwm.py
+          python -m unittest discover -s scripts -p test_release_safety.py -v
+          python -m pytest --noconftest lora/scalable/tests/test_provision.py lora/scalable/tests/test_network.py -q
+          python -m pytest --noconftest .compat-pc/firmware/scalable/tests/test_pc_compatibility.py -q
+          python lora/scalable/tests/run_native.py --sanitize
+      - name: Install pinned board dependencies
+        run: |
+          arduino-cli core update-index --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+          arduino-cli core install esp32:esp32@3.3.2 --additional-urls https://espressif.github.io/arduino-esp32/package_esp32_index.json
+          arduino-cli lib install RadioLib@7.2.1
+      - name: Build combined baseline and sanitize public assets
+        run: python scripts/build_baseline.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: TeleRC-ArduRover-Baseline-v1.1.0rc1
+          path: |
+            baseline-dist/*.zip
+            baseline-dist/*.json
+            baseline-dist/*.md
+            baseline-dist/*.txt
+  publish:
+    needs: qualify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: TeleRC-ArduRover-Baseline-v1.1.0rc1
+          path: baseline-dist
+      - name: Verify downloaded assets and publish baseline candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/publish_baseline.py
