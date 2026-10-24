@@ -1,5 +1,12 @@
 # TeleRC ArduRover firmware
 
+Current fleet development candidate: **LoRa 0.5.0rc1** with **PC TeleRC 1.2.0rc1**.
+See [fleet setup](lora/fleet/README.md) and [matching application/firmware downloads](https://github.com/Denberg28/PC-TeleRC/releases/tag/v1.2.0rc1).
+The BASE/ROVER update adds radio-admitted concurrent sessions and normal, deliberate PC arming.
+Existing TU2 nodes and PWM converter 1.0.5 remain compatible; private network keys are retained.
+Physical fleet/RF/motor qualification remains pending. Earlier source sets are preserved below.
+
+
 Current development baseline: **1.1.0rc1**, combining scalable LoRa **0.4.0rc1**
 and ESP32-S3 four-BTS7960 PWM converter **1.0.5**. See [baseline setup and limits](docs/BASELINE.md).
 The same LoRa sketch set supports manual and PC MAVLink mission sessions.

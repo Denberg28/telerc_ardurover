@@ -1,0 +1,366 @@
+{
+  "version": "0.5.0rc1",
+  "application": "1.2.0rc1",
+  "source_repository": "Denberg28/PC-TeleRC",
+  "source_commit": "6ba272867165eee31e21792ea259fce7225579f7",
+  "source_bytes_unchanged": true,
+  "hardware_validation": "NOT TESTED",
+  "qualification": "PC TeleRC workflow tests these exact source bytes; execute integration tests with its pinned PC sources",
+  "files": [
+    {
+      "path": "lora/fleet/README.md",
+      "sha256": "8afaa0584a3e2688f35c6f8526c72b75365ce43463f604e7bec142853e8a1116",
+      "source_path": "firmware/fleet/README.md"
+    },
+    {
+      "path": "lora/fleet/firmware/Config.example.h",
+      "sha256": "9e40658aab41347ef1d379484bcb7dad8ec0fde750b4c1c5c3f99086d709d78f",
+      "source_path": "firmware/fleet/firmware/Config.example.h"
+    },
+    {
+      "path": "lora/fleet/firmware/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_path": "firmware/fleet/firmware/Crypto.h"
+    },
+    {
+      "path": "lora/fleet/firmware/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_path": "firmware/fleet/firmware/Manual.h"
+    },
+    {
+      "path": "lora/fleet/firmware/Protocol.h",
+      "sha256": "c01a80d79d350d1ec744bc40da0aae1355d419d990ac4b273fc7ec6a0885f9c3",
+      "source_path": "firmware/fleet/firmware/Protocol.h"
+    },
+    {
+      "path": "lora/fleet/firmware/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_path": "firmware/fleet/firmware/Routing.h"
+    },
+    {
+      "path": "lora/fleet/firmware/Runtime.h",
+      "sha256": "faec402465f58745c0b29b0709ca7903a864eec2ab83e4f3468be64c4544deb5",
+      "source_path": "firmware/fleet/firmware/Runtime.h"
+    },
+    {
+      "path": "lora/fleet/firmware/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_path": "firmware/fleet/firmware/TeleRCWire.h"
+    },
+    {
+      "path": "lora/fleet/firmware/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_path": "firmware/fleet/firmware/TinyOled.h"
+    },
+    {
+      "path": "lora/fleet/requirements.txt",
+      "sha256": "53888723a4552fbefc13f6159015f97149e0a96ac2ffc1dd1ea8aa25b341c8a1",
+      "source_path": "firmware/fleet/requirements.txt"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_BASE/Config.h",
+      "sha256": "9e40658aab41347ef1d379484bcb7dad8ec0fde750b4c1c5c3f99086d709d78f",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_BASE/Config.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_BASE/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_BASE/Crypto.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_BASE/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_BASE/Manual.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_BASE/Protocol.h",
+      "sha256": "c01a80d79d350d1ec744bc40da0aae1355d419d990ac4b273fc7ec6a0885f9c3",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_BASE/Protocol.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_BASE/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_BASE/Routing.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_BASE/Runtime.h",
+      "sha256": "faec402465f58745c0b29b0709ca7903a864eec2ab83e4f3468be64c4544deb5",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_BASE/Runtime.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_BASE/TeleRCFleet_BASE.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_BASE/TeleRCFleet_BASE.ino"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_BASE/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_BASE/TeleRCWire.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_BASE/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_BASE/TinyOled.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_1/Config.h",
+      "sha256": "8f1fc3661a5514c9414906417a3028b27bc156c86493893caa98e8a830246c25",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_1/Config.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_1/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_1/Crypto.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_1/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_1/Manual.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_1/Protocol.h",
+      "sha256": "c01a80d79d350d1ec744bc40da0aae1355d419d990ac4b273fc7ec6a0885f9c3",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_1/Protocol.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_1/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_1/Routing.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_1/Runtime.h",
+      "sha256": "faec402465f58745c0b29b0709ca7903a864eec2ab83e4f3468be64c4544deb5",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_1/Runtime.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_1/TeleRCFleet_NODE_1.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_1/TeleRCFleet_NODE_1.ino"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_1/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_1/TeleRCWire.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_1/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_1/TinyOled.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_200/Config.h",
+      "sha256": "00b0a8977b17cfe40e6a6e213d38b27428bce45bb7b258e1e7654b935b74dcef",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_200/Config.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_200/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_200/Crypto.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_200/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_200/Manual.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_200/Protocol.h",
+      "sha256": "c01a80d79d350d1ec744bc40da0aae1355d419d990ac4b273fc7ec6a0885f9c3",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_200/Protocol.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_200/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_200/Routing.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_200/Runtime.h",
+      "sha256": "faec402465f58745c0b29b0709ca7903a864eec2ab83e4f3468be64c4544deb5",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_200/Runtime.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_200/TeleRCFleet_NODE_200.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_200/TeleRCFleet_NODE_200.ino"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_200/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_200/TeleRCWire.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_200/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_200/TinyOled.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_3/Config.h",
+      "sha256": "87667306779f75826b5083de68f6801cacc2b04c993de34fbb9d0b928f12506b",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_3/Config.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_3/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_3/Crypto.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_3/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_3/Manual.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_3/Protocol.h",
+      "sha256": "c01a80d79d350d1ec744bc40da0aae1355d419d990ac4b273fc7ec6a0885f9c3",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_3/Protocol.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_3/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_3/Routing.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_3/Runtime.h",
+      "sha256": "faec402465f58745c0b29b0709ca7903a864eec2ab83e4f3468be64c4544deb5",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_3/Runtime.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_3/TeleRCFleet_NODE_3.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_3/TeleRCFleet_NODE_3.ino"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_3/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_3/TeleRCWire.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_NODE_3/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_NODE_3/TinyOled.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_ROVER_001/Config.h",
+      "sha256": "358215af18349a5d9bd58a829733c86e11dfde57c91f76d413b026ae10f01fd5",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_ROVER_001/Config.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_ROVER_001/Crypto.h",
+      "sha256": "a75b9f040f4a07688fee3ed5b54cccf0dd1735f7eead0c44181fb7f1d0dbf1f0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_ROVER_001/Crypto.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_ROVER_001/Manual.h",
+      "sha256": "9f16f6689dd49da63868afa184a4eac530bd0737d1a1825474992436163f1166",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_ROVER_001/Manual.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_ROVER_001/Protocol.h",
+      "sha256": "c01a80d79d350d1ec744bc40da0aae1355d419d990ac4b273fc7ec6a0885f9c3",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_ROVER_001/Protocol.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_ROVER_001/Routing.h",
+      "sha256": "7f58028e75a4e7c5f3fb54289739eb9df707a2790d825070f0187d72007c88c0",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_ROVER_001/Routing.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_ROVER_001/Runtime.h",
+      "sha256": "faec402465f58745c0b29b0709ca7903a864eec2ab83e4f3468be64c4544deb5",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_ROVER_001/Runtime.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_ROVER_001/TeleRCFleet_ROVER_001.ino",
+      "sha256": "19383d4dd3f5b809f0e9e14354042a883cf42de7c4889ede931e274eb32a4e4c",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_ROVER_001/TeleRCFleet_ROVER_001.ino"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_ROVER_001/TeleRCWire.h",
+      "sha256": "3e932ef56a4a4896cfc729d994c54d94f925fb6a2621d22c5848681ef17c4f5e",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_ROVER_001/TeleRCWire.h"
+    },
+    {
+      "path": "lora/fleet/sketches/TeleRCFleet_ROVER_001/TinyOled.h",
+      "sha256": "335b4a4631c8c60cf3d62c8b9293c78e525259cc1b3d785a18d016e20ac4f186",
+      "source_path": "firmware/fleet/sketches/TeleRCFleet_ROVER_001/TinyOled.h"
+    },
+    {
+      "path": "lora/fleet/tests/radio_bridge.cpp",
+      "sha256": "92495c26d4f9541314e8fba5c1e10947618706ff9c3b11c8d66c6a80c1c7a421",
+      "source_path": "firmware/fleet/tests/radio_bridge.cpp"
+    },
+    {
+      "path": "lora/fleet/tests/run_native.py",
+      "sha256": "7d2a3ffbe092aab88b03216c27e590cd91e38bc1cf82bc41ee12208cc389d20e",
+      "source_path": "firmware/fleet/tests/run_native.py"
+    },
+    {
+      "path": "lora/fleet/tests/stubs/Arduino.h",
+      "sha256": "f55ee48dd16a72ee81127aabcb749e9a184fb4ae0e349dc416c2aa171e7a4453",
+      "source_path": "firmware/fleet/tests/stubs/Arduino.h"
+    },
+    {
+      "path": "lora/fleet/tests/stubs/RadioLib.h",
+      "sha256": "bc06e8c265102a707c0d8a359ea8c57e62c74cd328fdfc451d9b331e588d33b7",
+      "source_path": "firmware/fleet/tests/stubs/RadioLib.h"
+    },
+    {
+      "path": "lora/fleet/tests/stubs/SPI.h",
+      "sha256": "62d1e63727f12c3844d7dc964bbddfaf16a3f48b01121f5f5041918deffdf130",
+      "source_path": "firmware/fleet/tests/stubs/SPI.h"
+    },
+    {
+      "path": "lora/fleet/tests/stubs/Wire.h",
+      "sha256": "76646eeb61784c751bcc5be757c689037b8a813b96a05fd4b799bb68bc6e18bd",
+      "source_path": "firmware/fleet/tests/stubs/Wire.h"
+    },
+    {
+      "path": "lora/fleet/tests/stubs/bootloader_random.h",
+      "sha256": "2141523b81ce7e69574d91118c26c6559abdfe72165489383640039ec9c5d85d",
+      "source_path": "firmware/fleet/tests/stubs/bootloader_random.h"
+    },
+    {
+      "path": "lora/fleet/tests/stubs/esp_random.h",
+      "sha256": "8ddb552a0e01fc2ecbda4b6ab6d0c787a58bd7da7cab4ca611d15060d965c5fe",
+      "source_path": "firmware/fleet/tests/stubs/esp_random.h"
+    },
+    {
+      "path": "lora/fleet/tests/stubs/mbedtls/gcm.h",
+      "sha256": "1c967b846fee239567a472ec771794834a7b7a26d541e0eeeeb8dbf9e73c9553",
+      "source_path": "firmware/fleet/tests/stubs/mbedtls/gcm.h"
+    },
+    {
+      "path": "lora/fleet/tests/stubs/mbedtls/md.h",
+      "sha256": "6250312e14309fa7c348ed42b1f6e39faf24aed7079ff716b55faddc06fd8162",
+      "source_path": "firmware/fleet/tests/stubs/mbedtls/md.h"
+    },
+    {
+      "path": "lora/fleet/tests/test_fleet_network.py",
+      "sha256": "00801559d6c8b517fe8ebcd5ddbdb5720911347b87026611843fd221b4bfcae7",
+      "source_path": "firmware/fleet/tests/test_fleet_network.py"
+    },
+    {
+      "path": "lora/fleet/tests/test_native.cpp",
+      "sha256": "bc49cfb08fc0967941051718922cb95ad7a1fbaea1014fe1ca2470e7d1f8c3d2",
+      "source_path": "firmware/fleet/tests/test_native.cpp"
+    },
+    {
+      "path": "lora/fleet/tools/assemble_examples.py",
+      "sha256": "5328f446f8cfe684f6f97afa2dddedb96fb17784474c8e8a59cdcf7387b095a3",
+      "source_path": "firmware/fleet/tools/assemble_examples.py"
+    },
+    {
+      "path": "lora/fleet/tools/compile_profiles.py",
+      "sha256": "d92ed98353eb75233aa73e9ae7ad17814e65b8a2fcd21ac4ca3b6025b04044eb",
+      "source_path": "firmware/fleet/tools/compile_profiles.py"
+    },
+    {
+      "path": "lora/fleet/tools/provision.py",
+      "sha256": "8ba654c78cf6f8ce13b056c2a0b16cf6409384c30c328e8f6ce7e163f13018f1",
+      "source_path": "firmware/fleet/tools/provision.py"
+    },
+    {
+      "path": "lora/fleet/tools/setup_profiles.py",
+      "sha256": "cd39cbd6a1f2672082c32026991f6891ae3c055c14d496f21d65a4f9548c8290",
+      "source_path": "firmware/fleet/tools/setup_profiles.py"
+    }
+  ]
+}
